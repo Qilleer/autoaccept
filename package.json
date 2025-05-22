@@ -1,0 +1,33 @@
+{
+  "name": "auto-accept-bot",
+  "version": "1.0.0",
+  "description": "Bot mini untuk auto accept join request WhatsApp - Organized Structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "whatsapp",
+    "telegram",
+    "auto-accept",
+    "bot",
+    "baileys"
+  ],
+  "author": "Qiventory",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.17",
+    "node-telegram-bot-api": "^0.63.0",
+    "pino": "^8.21.0",
+    "qrcode": "^1.5.4",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
